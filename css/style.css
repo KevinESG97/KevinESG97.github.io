@@ -45,16 +45,12 @@
  
 
  .section-image {
- 	background:url(../images/origf_1265.jpg) no-repeat center center;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    background-size: cover;
+ 	background:url(../images/origf_1265.jpg) no-repeat center center; 
     width: 100%;
     height: 100vh;
     position: relative;
     text-align: center;
-    color: #fff;
-    display:table;
+    color: #fff; 
  }
 
  .img-overlay {
