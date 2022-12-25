@@ -45,13 +45,17 @@
  
 
  .section-image {
- 	background:url(../images/origf_1265.jpg) no-repeat center center; 
-    width: 100%;
-    height: 100vh;
-    position: relative;
-    text-align: center;
-    color: #fff; 
- }
+    background:url(../images/origf_1265.jpg) no-repeat center center;
+   -webkit-background-size: cover;
+   -moz-background-size: cover;
+   background-size: cover;
+   width: 100%;
+   height: 100vh;
+   position: relative;
+   text-align: center;
+   color: #fff;
+   display:table;
+}
 
  .img-overlay {
     position: absolute;
@@ -201,7 +205,7 @@ h3 {
 }
 
 #skills {
-    background: #151515 url(../images/origf_1317.jpg) no-repeat center center;
+    background: #073a52 url(../images/origf_1317.jpg) no-repeat center center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
